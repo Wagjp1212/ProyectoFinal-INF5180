@@ -7,16 +7,11 @@ using System.Web.UI.WebControls;
 
 namespace Recepcion.Paginas
 {
-    public partial class Index : System.Web.UI.Page
+    public partial class HospedarPersona : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
 
-        }
-
-        protected void btn_VerHabitaciones(object sender, EventArgs e)
-        {
-            Response.Redirect("VerHabitaciones.aspx");
         }
     }
 }
